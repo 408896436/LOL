@@ -1,0 +1,93 @@
+html{font-size: 20px; font-size: 1.15rem; color: #d2bd82; font-family: '微软雅黑';} 
+body{background: #161019;}
+ul,ol{list-style-type: none;}
+body,ul,ol,h1,h2,h3,h4,h5,h6,dl,dd,form,p{margin: 0px; padding: 0px;}
+h1{display: none;}
+a{ color: #d2bd82;}
+img{display: block; width: 100%;}
+embed{display: block; margin: 0 auto;}
+
+/*init css*/
+.sp{background-image: url('//game.gtimg.cn/images/lol/universe/m/act/a20170415vastaya/sp.png'); background-repeat: no-repeat; background-size: 51.2rem;}
+.bnt{display: block; text-align: center; }
+.hidet{text-indent: -9999px; overflow: hidden;}
+.auto{margin: 0 auto;}
+.tc{width: 100%; height: 100%; position: fixed; top: 0; left: 0; background: rgba(0,0,0,0.5); z-index: 9999;}
+
+/*video_body*/
+.video_body{width: 32rem; min-height: 11.6rem; margin: 0 auto; border:1.35rem solid #000;  border-image-source:url('//game.gtimg.cn/images/lol/universe/m/act/a20170415vastaya/border.png'); border-image-slice:27 27 27 27; border-image-repeat:round; }
+.video_box{border: 0.05rem solid #383b50; display: block; width: 31.7rem; min-height: 11.6rem; margin: 0 auto; position: relative; }
+
+/*fx*/
+.fx span{display: block; width:4.65rem; height:23.65rem; background-position:0rem 0rem; float: right; margin: 2rem 0.5rem 0 0;}
+
+/*.icon_bnt*/
+.icon_bnt{display: block; width: 31.7rem; height:3.15rem; line-height: 3.15rem; position: relative; border: 0.1rem solid #b7a656; margin: 0 auto; text-align: center; background: #1b161d; font-size: 1.2rem; color: #97885b; text-decoration: none; }
+.icon_bnt .bookmark{width:2.65rem; height:2.05rem; background-position:-45.6rem -6.35rem; display: inline-block; vertical-align: -0.7rem;}
+.icon_bnt .weibo{width:2.15rem; height:1.95rem; background-position:-48.45rem -6.45rem; display: inline-block; vertical-align: -0.7rem;}
+.icon_bnt .fx{width:2.05rem; height:1.95rem; background-position:-48.45rem -8.5rem;display: inline-block; vertical-align: -0.7rem;}
+.icon_bnt .upload{width: 1.65rem; height: 1.65rem; padding-right: 1rem; background-position:-46rem -8.7rem;display: inline-block; vertical-align: -0.4rem;}
+
+
+/*ul .bg:before*/
+.bg{border: 0.15rem solid #927D47;}
+.bg:before{content: ''; display: block; width: 100%; height: 100%; background: rgba(0,0,0,0.7); position: absolute; top: 0; left: 0; pointer-events: none;}
+
+/*.button_v, button_g*/
+.button_v, .button_g, .button_s{position: absolute; left: 0; text-align: center; top: 50%; margin-top: -3.5rem; width: 100%; height: 7rem;  font-size: 1.2rem;  font-style: normal; pointer-events: none;}
+
+.button_v:before{content: ''; display: block; margin: 0 auto; width: 4.7rem; height: 4.7rem; background: url('//game.gtimg.cn/images/lol/universe/m/act/a20170415vastaya/sp.png') no-repeat -37.25rem -3.25rem; background-size: 51.2rem; }
+.button_g:before{content: ''; display: block; margin: 2rem auto -2rem; width: 2.9rem; height: 4.7rem; background: url('//game.gtimg.cn/images/lol/universe/m/act/a20170415vastaya/sp.png') no-repeat -42.2rem -3.65rem; background-size: 51.2rem; }
+.button_s:before{content: ''; display: block; margin: 0.5rem auto; width: 3.05rem; height: 3.1rem; background: url('//game.gtimg.cn/images/lol/universe/m/act/a20170415vastaya/sp.png') no-repeat -47.8rem 0rem; background-size: 51.15rem; }
+
+/*musicbnt*/
+.musicbnt{ float: right; margin: 1rem 1rem 0 0; width:2.65rem; height:2.65rem; background-position:-48.45rem -3.5rem; -webkit-animation: music 3s 0s linear both infinite; }
+
+.pause{ background-position:-45.6rem -3.5rem; }
+@-webkit-keyframes music{
+	0%{ -webkit-transform: rotate(0deg);}
+	100%{ -webkit-transform: rotate(360deg);}
+}
+
+/*back*/
+.back{ float: left; display: inline; width:10.35rem; height:3.1rem; background-position:-37.4rem 0; margin-top: 0.5rem; position: fixed; z-index: 9990; }
+
+/*tit*/
+.tit{text-align: center; font-size: 1.6rem; font-weight: normal; background-image: -webkit-gradient(linear, 0 0, 0 bottom, from(rgba(220, 198, 137, 1)), to(rgba(155, 139, 93, 1)));-webkit-text-fill-color: transparent;-webkit-background-clip: text; overflow: hidden; margin: 3rem 0 2rem 0; }
+.tit:before{content: ''; display: inline-block; width: 9.5rem; height: 2.2rem; background: url('//game.gtimg.cn/images/lol/universe/m/act/a20170415vastaya/sp.png') no-repeat -2rem -24.05rem; background-size: 51.2rem; vertical-align: -1.2rem; margin-right: 1rem;}
+.tit:after{content: ''; display: inline-block; width: 9.5rem; height: 2.2rem; background: url('//game.gtimg.cn/images/lol/universe/m/act/a20170415vastaya/sp.png') no-repeat -27.9rem -24.05rem; background-size: 51.2rem; vertical-align: -1.2rem; margin-left: 1rem;}
+
+/*.linkbnt*/
+.linkbnt{width: 32.15rem; overflow: hidden;}
+.linkbnt a{margin-top: 0.8rem; line-height: 3.8rem; }
+.linkbnt .a1{width:31.35rem; height:3.9rem;}
+.linkbnt .a2,.linkbnt .a3{width:15.32rem; height:3.8rem;}
+.linkbnt li a{display: inline; float: left;}
+.linkbnt .a2{margin-right: 0.6rem;margin-left: 0.3rem;}
+
+/*init page*/
+body:before{ content: ''; width: 37.5rem; height: 44rem; position: absolute; left: 0; top: 0; background-image: -webkit-gradient(linear, 0 0, 0 bottom, from(rgba(43, 47, 67, 1)), to(rgba(22, 16, 25, 1))); }
+.book{position: relative; z-index: 9990; padding-bottom: 4rem;}
+.header{background: url('//game.gtimg.cn/images/lol/universe/m/act/a20170415vastaya/header.png') no-repeat 0 0; background-size: 37.5rem; height: 16.65rem;}
+
+.yetext{ background-image: -webkit-gradient(linear, 0 0, 0 bottom, from(rgba(220, 198, 137, 1)), to(rgba(155, 139, 93, 1)));-webkit-text-fill-color: transparent;-webkit-background-clip: text; }
+
+/*under_text*/
+.under_text span{display: block; width: 100%; height: 2.1rem; background: rgba(0,0,0,0.5); line-height: 2.1rem; border-top: 0.15rem solid #785E26; position: absolute; bottom: 0; left: 0; text-align: center; color: #97885b;}
+
+.comment{width:32rem; margin:0 auto;overflow:hidden;}
+
+/**/
+.country .story_wp{font-size: 1.5rem !important;}
+
+.tc{width: 100%; height: 100%; position: fixed; top: 0; left: 0; background: rgba(0,0,0,0.7); z-index: 9999;}
+.mod_list .close{color: #fff; font-size: 2rem; position: absolute; top: -1rem; right: -1.5rem; text-decoration: none;}
+.mod_list{position: absolute; left: 50%; top: 50%; width: 30rem; height: 20rem; margin: -10rem 0 0 -15rem; background: #000;}
+#mod_player{height: 100%;}
+
+.noan:before{display: none;}
+.longtext{margin-top: -4.5rem;}
+.big_img{height: 100% !important;}
+.country:after{bottom: -0.4rem !important;}
+.hero_bnt .under_text:after{left: 11.5rem !important;}
+.story_wp p{text-indent: 2rem;}
